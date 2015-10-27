@@ -1,0 +1,100 @@
+
+/*Section 1 - Home Page */
+#navigation {
+	float: left;
+	width:200px;
+	padding: 100px 0px 0px 30px;
+
+}
+
+#navigation a{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 1.5em;
+	font-weight:500;
+	line-height: 2;
+}
+
+#home-page {
+	height:1300px;
+	background: url(../images/bicyclist-trail.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#info-btn {
+	width: 250px;
+	height:70px;
+	background-color: #cf5223;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 17px;
+	margin: auto;
+	opacity: 0.8;
+}
+
+a {
+	text-decoration:none;
+	color: white;
+	font-weight: 300;
+	text-transform: uppercase;
+
+}
+
+/*Section 2 - Info Page */
+#info-page {
+	height:1000px;
+	background-color:#daf0f4;
+	padding: 100px 250px 50px 250px;
+	margin-top: -10px;
+}
+
+#contact-btn {
+	width: 250px;
+	height:70px;
+	background-color: #cf5223;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 2em;
+	padding-top: 17px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 50px;
+
+}
+
+/*Section 3 - Program Page */
+#program-page {
+	height:1000px;
+	background-color:#000000;
+}
+
+/*Typography*/
+
+h1{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #20241c;
+	font-size: 6em;
+}
+
+h2{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 5em;
+	text-align: center;
+	padding: 400px 0px 50px 0px;
+	margin-top: -20px;
+}
+
+p, li{
+	font-family: 'Fira Sans', sans-serif;
+	font-weight: 300;
+	color: #20241c;
+	font-size: 1.7em;
+}
+
+
